@@ -10,7 +10,7 @@ BIS Sahayak AI is an evidence-grounded BIS intelligence assistant. It converts n
 Every answer is grounded in retrieved BIS document evidence (via Retrieval-Augmented Generation) and comes with citations back to the standard, clause, and page it was sourced from. If the system can't find supporting evidence, it says so explicitly rather than guessing.
 
 ---
-
+```
 ## Architecture
 User
 ↓
@@ -28,7 +28,6 @@ Gemini API
 ↓
 Grounded Answer + Citations
 
-```
 BIS-SAHAYAK-AI/
 |
 ├── backend/
