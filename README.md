@@ -28,8 +28,9 @@ Gemini API
 ↓
 Grounded Answer + Citations
 
+'''
 BIS-SAHAYAK-AI/
-│
+|
 ├── backend/
 │   └── Python FastAPI application
 │       ├── API endpoints
@@ -50,10 +51,11 @@ BIS-SAHAYAK-AI/
 │   └── Project documentation
 │
 ├── docker-compose.yml
-│   └── Runs frontend, backend and PostgreSQL
+│   └── Runs frontend, backend, and PostgreSQL
 │
 └── README.md
     └── Project setup and documentation
+'''
 
 **RAG pipeline (how a question gets answered):**
 User Question → Query Embedding → pgvector Similarity Search
