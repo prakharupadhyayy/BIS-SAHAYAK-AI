@@ -28,7 +28,7 @@ Gemini API
 ↓
 Grounded Answer + Citations
 
-'''
+```
 BIS-SAHAYAK-AI/
 |
 ├── backend/
@@ -55,7 +55,7 @@ BIS-SAHAYAK-AI/
 │
 └── README.md
     └── Project setup and documentation
-'''
+```
 
 **RAG pipeline (how a question gets answered):**
 User Question → Query Embedding → pgvector Similarity Search
